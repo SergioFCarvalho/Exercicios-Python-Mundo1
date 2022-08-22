@@ -1,0 +1,10 @@
+# Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
+p = float(input('Qual preço do seu produto? R$ '))
+n1 = p - ( p * 5/100)
+print(f'O produto que custava \033[32mR${p}\033[m, na promoção com desconto de 5% custa agora R$\033[34m{n1:.2f}\033[m')
+# Aqui eu fiz mais exemplos
+n2 = p - (p * 10/100)
+print(f'com 10% de desconto o produto custa agora R${n2}')
+n3 = p - (p * 15/100)
+print(f'20% de desconto o produto custa agora R${n3}')
+print('ok')
